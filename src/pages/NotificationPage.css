@@ -1,0 +1,89 @@
+.bg-FAF7F6{
+    background-color: #FAF7F6;
+  }
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  .n-title {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600; 
+    font-size: 2.5rem; 
+    color: #2c3e50; 
+    background: linear-gradient(90deg, rgba(41, 128, 185, 1) 0%, rgba(52, 152, 219, 1) 100%); 
+    -webkit-background-clip: text;
+    background-clip: text; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    padding-bottom: 10px; 
+  }
+  
+  
+  .n-badge {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+    color: white; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    transition: all 0.3s ease; 
+  }
+  
+  .n-badge img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+  }
+  
+  .n-badge .count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #EEE4E1; 
+    color: rgb(0, 0, 0); 
+    padding: 5px 10px; 
+    border-radius: 50%; 
+    font-size: 14px; 
+    font-weight: bold; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 25px; 
+    max-height: 25px; 
+  }
+  
+  
+  .n-badge:hover {
+    transform: translateY(-5px); 
+    cursor: pointer; 
+  }
+.w-1000{
+    width: 1000px;
+}
+  
+
+.fade-out {
+    animation: fadeOut 0.3s ease-out forwards;
+  }
+  
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      transform: translateX(0); 
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+  
